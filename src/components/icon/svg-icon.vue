@@ -21,6 +21,14 @@ export default {
       default: '16'
     }
   },
+  created(){
+    this.getSvgIcon()
+  },
+  methods:{
+    async getSvgIcon(){
+      await require(`@/assets/icon/${this.name}.svg`)
+    }
+  }
 }
 </script>
 

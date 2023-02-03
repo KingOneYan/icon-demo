@@ -14,18 +14,6 @@ module.exports = defineConfig({
           .end()
           .use('svg-sprite-loader')
           .loader('svg-sprite-loader')
-    // const svgRule = config.module.rule('svg');
-    //
-    // svgRule.uses.clear();
-    //
-    // svgRule.use('svg-sprite-loader')
-    //     .loader('svg-sprite-loader')
-    //     .tap(options => {
-    //         return {
-    //             ...options,
-    //             symbolId : '[name]'
-    //         }
-    //     })
   }
   // devServer: {
   //   open: true,  // npm run serve后自动打开页面

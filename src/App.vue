@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <span class="svg"></span>
+<!--    <span class="svg"></span>-->
 <!--    <img src="@/assets/img/png-file.svg"/>-->
 <!--    <svg class="new-icon" style="fill: blue">-->
 <!--      <use xlink:href="#download"></use>-->
 <!--    </svg>-->
-    <svg-icon name="download" color="#fff"></svg-icon>
+<!--    <svg-icon name="download" color="#fff"></svg-icon>-->
     <svg-icon name="full-screen" color="#fff"></svg-icon>
   </div>
 </template>
@@ -27,14 +27,14 @@ export default {
   background: black;
 }
 
-.svg{
-  display: block;
-  width: 16px;
-  height: 16px;
-  color: white;
-  background: url("~@/assets/icon/full-screen.svg") no-repeat;
-  background-size: contain;
-}
+/*.svg{*/
+/*  display: block;*/
+/*  width: 16px;*/
+/*  height: 16px;*/
+/*  color: white;*/
+/*  background: url("~@/assets/icon/full-screen.svg") no-repeat;*/
+/*  background-size: contain;*/
+/*}*/
 
 .new-icon{
   width: 16px;
